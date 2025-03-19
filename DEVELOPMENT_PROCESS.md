@@ -56,6 +56,8 @@ This project adheres to the Model-View-Controller (MVC) architectural pattern, s
     * Created Thymeleaf templates (`registration.html`, `success.html`) for dynamic web page rendering.
 * **Bootstrap Styling:**
     * Implemented Bootstrap styling for a responsive and visually appealing user interface.
+Before: ![Screenshot 2025-03-19 022217](https://github.com/user-attachments/assets/04c48148-65e6-44e9-8c56-54547c9c288b)
+After styling: ![home page bootstrap](https://github.com/user-attachments/assets/6de7aab8-73b3-489d-835c-aee52ae3d542)
 
 ## 6. Testing and Troubleshooting
 
@@ -65,6 +67,7 @@ This project adheres to the Model-View-Controller (MVC) architectural pattern, s
     * Resolved issues with extra columns being added to the database.
 * **Email Validation:**
     * Implemented server-side email case sensitivity and uniqueness validation using MySQL's `COLLATE` clause.
+
 * **Long Filename Issue:**
     * Troubleshot and resolved issues with long file names.
 
