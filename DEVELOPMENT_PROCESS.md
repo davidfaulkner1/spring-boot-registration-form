@@ -76,4 +76,42 @@ This project adheres to the Model-View-Controller (MVC) architectural pattern, s
     * Created a GitHub repository and pushed the code to the remote repository.
 * **.gitignore Implementation:**
     * Implemented proper `.gitignore` practices.
-*
+ 
+
+  ## Areas for Improvement (Future Enhancements)
+
+If I had more time to dedicate to this project, I would focus on these areas to further enhance its robustness, maintainability, and security:
+
+**1. Enhanced Error Handling and Validation:**
+
+* **Robust Error Handling:**
+    * Implement `try-catch` blocks to handle potential exceptions, such as database connection errors or invalid user input.
+    * Provide user-friendly error messages that guide users towards resolving issues.
+* **Specific Validation:**
+    * Enhance form field validation using more specific Jakarta Validation annotations to enforce stricter data integrity.
+    * Provide detailed and informative error messages to the user, clearly indicating the cause of validation failures.
+* **Custom Error Pages:**
+    * Implement custom error pages for common HTTP errors (e.g., 404, 500) to improve the user experience.
+
+**2. Comprehensive Testing:**
+
+* **Unit Tests:**
+    * Develop unit tests for the `CustomerData` entity, `CustomerDataRepository`, and `RegistrationController` using JUnit and Spring Boot Test.
+* **Integration Tests:**
+    * Create integration tests to verify the interactions between different components of the application, including database interactions.
+
+**3. Security Hardening:**
+
+* **Password Hashing:**
+    * Implement secure password hashing using bcrypt or a similar algorithm to protect user credentials.
+* **Input Sanitization:**
+    * Sanitize user input to prevent common web vulnerabilities, such as cross-site scripting (XSS) and SQL injection.
+* **Other Security Measures:**
+    * Implement best practices to prevent other common web vulnerabilities.
+
+**4. Code Readability and Maintainability:**
+
+* **Code Comments:**
+    * Add more detailed comments to explain complex logic and design decisions, improving code readability and maintainability.
+* **Service Layer Implementation:**
+    * Introduce a service layer to encapsulate business logic, further separating concerns and improving the application's architecture.
