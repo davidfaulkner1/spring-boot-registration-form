@@ -35,7 +35,7 @@ This project adheres to the Model-View-Controller (MVC) architectural pattern, s
 ## 3. Database Design and Implementation
 
 * **Database Schema Creation:**
-    * Designed and created a `users` table in MySQL, defining data types, constraints (NOT NULL, UNIQUE), and relationships.
+    * Designed and created a `customer_data` table in MySQL, defining data types, constraints (NOT NULL, UNIQUE), and relationships.
     * Utilized `AUTO_INCREMENT` and `PRIMARY KEY` for efficient data management.
 
 ## 4. Data Model and Persistence Layer
