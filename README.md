@@ -35,6 +35,19 @@ Before you begin, ensure you have the following installed:
 4.  **Access the Application:**
 
     * Open your web browser and navigate to `http://localhost:8080/registration`.
+  
+    ## Database Setup
+
+1.  **Install MySQL:** Ensure you have MySQL installed and running.
+2.  **Import Database Script:**
+    * Open MySQL Workbench (or your preferred MySQL client).
+    * Connect to your MySQL server.
+    * Open the `src/main/resources/create_database.sql` script.
+    * Execute the script to create the `aeroparker` database and the `customer_data` table.
+
+3.  **Configure `application.properties`:**
+    * Update the `application.properties` file with your MySQL database credentials.
+    * Remember to use environment variables for sensitive data (e.g., database password).
 
 ## Features
 
