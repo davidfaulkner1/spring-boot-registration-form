@@ -16,7 +16,7 @@ Before you begin, ensure you have the following installed:
 1.  **Clone the Repository:**
 
     ```bash
-    git clone git@github.com:yourusername/spring-boot-registration-form.git
+    git clone git@github.com:davidfaulkner1/spring-boot-registration-form.git
     cd spring-boot-registration-form
     ```
 
