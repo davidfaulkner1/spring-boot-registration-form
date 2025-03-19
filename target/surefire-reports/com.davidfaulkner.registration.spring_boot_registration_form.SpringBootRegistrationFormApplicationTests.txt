@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: com.davidfaulkner.registration.spring_boot_registration_form.SpringBootRegistrationFormApplicationTests
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 5.588 s -- in com.davidfaulkner.registration.spring_boot_registration_form.SpringBootRegistrationFormApplicationTests

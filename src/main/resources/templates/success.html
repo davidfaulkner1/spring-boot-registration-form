@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Registration Successful</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+<body>
+    <div class="container mt-5">
+        <div class="row justify-content-center">
+            <div class="col-md-8">
+                <div class="card">
+                    <div class="card-header">
+                        <h2 class="text-center">Registration Successful!</h2>
+                    </div>
+                    <div class="card-body">
+                        <p>Thank you for registering. Here are your details:</p>
+
+                        <ul class="list-group">
+                            <li class="list-group-item"><strong>Email Address:</strong> <span th:text="${customerData.emailAddress}"></span></li>
+                            <li class="list-group-item"><strong>Title:</strong> <span th:text="${customerData.title}"></span></li>
+                            <li class="list-group-item"><strong>First Name:</strong> <span th:text="${customerData.firstName}"></span></li>
+                            <li class="list-group-item"><strong>Last Name:</strong> <span th:text="${customerData.lastName}"></span></li>
+                            <li class="list-group-item"><strong>Address Line 1:</strong> <span th:text="${customerData.addressLine1}"></span></li>
+                            <li class="list-group-item" th:if="${customerData.city != null}"><strong>City:</strong> <span th:text="${customerData.city}"></span></li>
+                            <li class="list-group-item"><strong>Postcode:</strong> <span th:text="${customerData.postcode}"></span></li>
+                            <li class="list-group-item" th:if="${customerData.phoneNumber != null}"><strong>Phone Number:</strong> <span th:text="${customerData.phoneNumber}"></span></li>
+                        </ul>
+
+                        <div class="mt-3 text-center">
+                            <a th:href="@{/registration}" class="btn btn-primary">Register Another Customer</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
