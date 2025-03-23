@@ -1,6 +1,3 @@
-/**
- * 
- */
 package com.davidfaulkner.registration.spring_boot_registration_form.entity;
 
 import jakarta.persistence.*;
@@ -17,13 +14,13 @@ import java.util.Objects;
 @Table(name = "customer_data")
 public class CustomerData {
 
-	// Instance variables for each field in table
-	@Id
+    // Instance variables for each field in table
+    @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 	
-	@Column(nullable = false)
-	private LocalDateTime registered;
+    @Column(nullable = false)
+    private LocalDateTime registered;
 
     @Column(nullable = false, unique = true, length = 255)
     @Email(message = "Invalid email format")
@@ -77,8 +74,8 @@ public class CustomerData {
 	}
 
 	
-    // Getters and setters for each instance variable
-    public Long getId() {
+        // Getters and setters for each instance variable
+        public Long getId() {
 		return id;
 	}
 
